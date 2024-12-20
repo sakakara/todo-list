@@ -1,0 +1,13 @@
+.todo-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .todo-item input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+  }
+  
+  .todo-item:hover {
+    transform: scale(1.05);
+  }
+  
